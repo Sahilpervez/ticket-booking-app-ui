@@ -101,6 +101,7 @@ class SettingScreen extends StatelessWidget {
               Gap(AppLayout.getHeight(10)),
               SettingBars(txt: "About", icn: Icons.question_mark_sharp),
               Gap(AppLayout.getHeight(10)),
+              Gap(AppLayout.getHeight(50)),
             ],
           ),
           Column(
