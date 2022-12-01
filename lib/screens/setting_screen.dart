@@ -115,6 +115,30 @@ class SettingScreen extends StatelessWidget {
               ],
             ),
           ),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              TextButton(
+                onPressed: () {},
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(
+                      Icons.logout,
+                      color: Styles.primaryColor,
+                    ),
+                    Text(
+                      "LOGOUT",
+                      style: Styles.headLineStyle3.copyWith(
+                        color: Colors.black,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );
